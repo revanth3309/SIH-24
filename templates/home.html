@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About InfraLink</title>
+
+  <!-- Font and Styles -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet">
+
+  <style>
+    *,
+    *:before,
+    *:after {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: #080710;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    /* Updated navbar styling */
+    nav {
+      display: flex; /* Use flexbox for alignment */
+      justify-content: space-between; /* Space between logo and menu items */
+      align-items: center; /* Center items vertically */
+      padding: 10px 30px; /* Padding for the navbar */
+      background-color: rgba(255, 255, 255, 0.13);
+      backdrop-filter: blur(10px);
+      box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
+    }
+
+    nav .logo-container {
+      display: flex; /* Keep logo in a container */
+      align-items: center; /* Center logo vertically */
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex; /* Keep the menu items in a row */
+    }
+
+    nav ul li {
+      margin: 0 10px; /* Space between menu items */
+    }
+
+    nav ul li a {
+      text-decoration: none; /* Remove underline */
+      font-size: 14px; /* Font size for menu items */
+      color: white; /* Text color */
+    }
+
+    nav ul li a:hover {
+      color: #ff512f; /* Hover color for text links */
+    }
+
+    .logo {
+      height: 30px; /* Logo height */
+      margin-right: 20px; /* Space between logo and menu items */
+    }
+
+    header {
+      text-align: center;
+      color: white;
+      margin: 50px 0;
+    }
+
+    header h1 {
+      font-size: 36px;
+      font-weight: 600;
+    }
+
+    header p {
+      font-size: 18px;
+      margin-top: 10px;
+    }
+
+    .about-section {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      flex-wrap: wrap;
+      padding: 50px;
+    }
+
+    .about-content {
+      background-color: rgba(255, 255, 255, 0.13);
+      padding: 30px;
+      border-radius: 10px;
+      width: 800px;
+      text-align: center;
+      backdrop-filter: blur(10px);
+      color: white;
+      box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
+    }
+
+    .about-content h2 {
+      font-size: 28px;
+      margin-bottom: 20px;
+      color: #ff512f;
+    }
+
+    .about-content p {
+      font-size: 16px;
+      line-height: 1.8;
+    }
+
+    footer {
+      text-align: center;
+      margin: 50px 0 20px;
+      color: white;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Navigation Bar -->
+  <nav>
+    <div class="logo-container">
+      <a href="/home">
+        <img src="logo.jpg" alt="InfraLink Logo" class="logo">
+      </a>
+    </div>
+    <ul>
+    <li><a href="/home">Home</a></li>
+      <li><a href="/about">About Us</a></li>
+      <li><a href="/login">Login</a></li>
+      <li><a href="/register">Register</a></li>
+      <li><a href="/contact">Contact Us</a></li>
+    </ul>
+  </nav>
+
+  <!-- Introduction Section -->
+  <header>
+    <h1>Welcome to InfraLink</h1>
+    <p>Connecting Departments for Seamless Urban Development</p>
+  </header>
+
+  <!-- About InfraLink -->
+  <section class="about-section">
+    <div class="about-content">
+      <h2>About InfraLink</h2>
+      <p>
+        InfraLink is a revolutionary digital platform designed to facilitate interdepartmental collaboration in urban governance. 
+        With a multitude of authorities and agencies working on different infrastructure projects, InfraLink helps streamline communication, share resources, and ensure timely project execution.
+      </p>
+      <p>
+        Our mission is to solve the challenges of coordination between departments, minimizing delays and reducing resource wastage. 
+        Whether it's road construction, utility installation, or resource sharing, InfraLink enables seamless cooperation between departments to ensure efficient urban development.
+      </p>
+
+      <h2>How InfraLink Works</h2>
+      <p>
+        InfraLink offers a robust solution by integrating task management, project phasing, resource sharing, and communication tools all in one place:
+      </p>
+      <ul>
+        <li>Departments can register and share project data, upcoming tasks, and available resources.</li>
+        <li>Unified scheduling and phasing of projects to prevent delays and optimize resource utilization.</li>
+        <li>Collaborative decision-making via dedicated forums, reducing the risk of conflicting works.</li>
+        <li>Alerts for resource shortages, task delays, and emergency responses to handle critical situations swiftly.</li>
+      </ul>
+
+      <h2>Our Motive</h2>
+      <p>
+        At InfraLink, our goal is to foster better coordination among city planners, engineers, and agencies to create a more efficient and transparent urban development ecosystem. 
+        By promoting proactive collaboration, we aim to eliminate the inefficiencies caused by overlapping or delayed projects and resource mismanagement.
+      </p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>InfraLink © 2024 | Making Urban Development Smarter</p>
+  </footer>
+
+</body>
+</html>
+
+
+
+
